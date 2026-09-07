@@ -153,3 +153,8 @@ input:focus,select:focus,textarea:focus{border-color:var(--coral);box-shadow:0 0
 .logout-btn{border:1.5px solid #f3c9c6;background:#fff5f4;color:#c0392b;padding:11px 18px;border-radius:9px;font-weight:600;font-size:13px;cursor:pointer;transition:.2s}
 .logout-btn:hover{background:#ffe4e1}
 @media(max-width:600px){.profile-row{grid-template-columns:1fr;gap:4px}.profile-top{flex-direction:column;text-align:center}}
+.notice{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);max-width:90%;font-size:13px;line-height:1.5;background:var(--ink);border-radius:11px;padding:13px 20px;color:#fff;box-shadow:0 15px 35px rgba(0,0,0,.28);z-index:200;animation:toastIn .35s ease}
+@keyframes toastIn{from{opacity:0;transform:translate(-50%,14px)}to{opacity:1;transform:translate(-50%,0)}}
+.skeleton{background:linear-gradient(90deg,#eee3d5 25%,#f5efe4 37%,#eee3d5 63%);background-size:400% 100%;animation:skeleton-loading 1.4s ease infinite;border-radius:14px}
+@keyframes skeleton-loading{0%{background-position:100% 50%}100%{background-position:0 50%}}
+.skeleton-card{height:270px}

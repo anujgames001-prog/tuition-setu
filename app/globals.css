@@ -158,3 +158,20 @@ input:focus,select:focus,textarea:focus{border-color:var(--coral);box-shadow:0 0
 .skeleton{background:linear-gradient(90deg,#eee3d5 25%,#f5efe4 37%,#eee3d5 63%);background-size:400% 100%;animation:skeleton-loading 1.4s ease infinite;border-radius:14px}
 @keyframes skeleton-loading{0%{background-position:100% 50%}100%{background-position:0 50%}}
 .skeleton-card{height:270px}
+.listing-link{display:block;text-decoration:none;color:inherit}
+.listing-top{padding:16px 16px 0}
+.listing-bottom{padding:0 16px 16px}
+.tutor-page{max-width:820px;margin:0 auto;padding:0 0 80px}
+.tutor-cover{height:220px;background:linear-gradient(135deg,#c8e8dc,#a9dcc7);display:grid;place-items:center;font:96px 'Fraunces',Georgia,serif;color:#31826d}
+.tutor-body{background:#fff;margin:-40px 24px 0;position:relative;border-radius:18px;padding:32px;box-shadow:0 20px 45px rgba(42,68,54,.1)}
+.tutor-body h1{margin:12px 0 6px;font-size:32px}
+.tutor-meta{color:var(--muted);font-size:14px;margin:0 0 8px}
+.tutor-rating{color:#c07a12;font-weight:600;font-size:14px;margin:0 0 16px}
+.tutor-desc{color:var(--muted);line-height:1.7;margin:0 0 20px}
+.tutor-tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.tag{background:var(--green);color:#1f6e50;font-size:12px;font-weight:600;padding:6px 12px;border-radius:20px}
+.tutor-cta{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:22px;flex-wrap:wrap;gap:14px}
+.tutor-cta b{font-size:18px}
+.tutor-skel-line{height:22px;border-radius:6px;margin-bottom:12px;width:70%}
+.tutor-skel-line.short{width:40%}
+@media(max-width:600px){.tutor-body{margin:-30px 14px 0;padding:22px}.tutor-body h1{font-size:24px}.tutor-cover{height:160px;font-size:60px}}

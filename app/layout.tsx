@@ -10,5 +10,5 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body><Header />{children}<footer>© 2026 TuitionSetu · Making local learning easier.</footer></body></html>
+  return <html lang="en"><body><Header />{children}<footer className="site-footer"><div className="footer-grid"><div className="footer-col"><h4>TuitionSetu</h4><p>Helping families find trusted local tutors and coaching classes, and helping great teachers get discovered.</p></div><div className="footer-col"><h4>Quick links</h4><a href="/student">Find classes</a><a href="/tutor/new">List your classes</a><a href="/contact">Contact us</a></div><div className="footer-col"><h4>Get in touch</h4><a href="https://wa.me/916263433081" target="_blank">WhatsApp: +91 62634 33081</a><a href="mailto:singhmodex@gmail.com">singhmodex@gmail.com</a></div></div><div className="footer-bottom">© 2026 TuitionSetu · Making local learning easier.</div></footer></body></html>
 }

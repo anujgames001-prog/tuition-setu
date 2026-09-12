@@ -25,6 +25,6 @@ export default function ProfilePage(){
       <button className="primary inline" onClick={save} disabled={saving}>{saving?'Saving…':'Save changes'}</button>
       {message && <p className="notice">{message}</p>}
     </div>
-    <div className="logout-row"><button className="logout-btn" onClick={logout}>Log out</button></div>
+   <div className="logout-row"><a className="link-btn" href="/dashboard">Go to dashboard</a><button className="logout-btn" onClick={logout}>Log out</button></div>
   </main>
 }

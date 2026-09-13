@@ -235,3 +235,4 @@ input:focus,select:focus,textarea:focus{border-color:var(--coral);box-shadow:0 0
 .legal-page h2{margin-top:32px;font-size:18px;font-family:'Fraunces',Georgia,serif}
 .legal-page p,.legal-page li{color:var(--muted);line-height:1.75;font-size:14px}
 .legal-page ul{padding-left:20px}
+.logo-mark{display:grid;place-items:center;width:29px;height:29px;background:linear-gradient(135deg,#fa8478,#f04a3d);border-radius:9px;box-shadow:0 4px 10px rgba(248,107,96,.35)}

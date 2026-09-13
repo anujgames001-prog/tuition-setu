@@ -247,3 +247,5 @@ input:focus,select:focus,textarea:focus{border-color:var(--coral);box-shadow:0 0
 .account-dropdown a:hover,.account-dropdown button:hover{background:var(--green)}
 .account-dropdown button{color:#c0392b}
 @media(max-width:800px){.hi-text{display:none}}
+.locate-btn{background:#fff;border:1px solid var(--line);border-radius:9px;padding:0 16px;font-size:13px;font-weight:600;color:var(--coral);cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:6px}
+.locate-btn:hover{border-color:var(--coral)}

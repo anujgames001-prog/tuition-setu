@@ -51,7 +51,8 @@ input:focus,select:focus,textarea:focus{border-color:var(--coral);box-shadow:0 0
 .search-hero{text-align:center;padding:80px 7%;background:var(--green)}
 .search-hero h1,.partner-head h1{font-size:48px;margin:0}
 .search-hero>p:not(.eyebrow),.partner-head p:not(.eyebrow){color:var(--muted);line-height:1.65;max-width:600px;margin:16px auto 26px}
-.search-bar{background:#fff;display:grid;grid-template-columns:1.2fr .75fr auto;gap:8px;max-width:750px;margin:auto;padding:8px;border-radius:14px;box-shadow:0 16px 36px rgba(36,64,52,.1)}
+.search-bar{background:#fff;display:grid;grid-template-columns:1.1fr .7fr auto auto;gap:8px;max-width:850px;margin:auto;padding:8px;border-radius:14px;box-shadow:0 16px 36px rgba(36,64,52,.1)}
+@media(max-width:800px){.search-bar{grid-template-columns:1fr}}
 .content{padding:65px 7%;display:grid;grid-template-columns:210px 1fr;gap:48px;max-width:1450px;margin:auto}
 .filters{font-size:13px}
 .filters p{color:var(--muted);line-height:1.6}

@@ -249,5 +249,6 @@ input:focus,select:focus,textarea:focus{border-color:var(--coral);box-shadow:0 0
 .account-dropdown a:hover,.account-dropdown button:hover{background:var(--green)}
 .account-dropdown button{color:#c0392b}
 @media(max-width:800px){.hi-text{display:none}}
-.locate-btn{background:#fff;border:1px solid var(--line);border-radius:9px;padding:0 16px;font-size:13px;font-weight:600;color:var(--coral);cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:6px}
-.locate-btn:hover{border-color:var(--coral)}
+.locate-btn{background:#fff8f4;border:1px dashed #f3c3ba;border-radius:9px;padding:10px 14px;font-size:12.5px;font-weight:600;color:var(--coral);cursor:pointer;white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:6px;min-height:auto}
+.locate-btn:hover{background:#ffe9e2;border-color:var(--coral)}
+@media(max-width:800px){.locate-btn{padding:9px 14px;font-size:12px}}
